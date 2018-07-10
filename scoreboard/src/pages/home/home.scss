@@ -1,0 +1,22 @@
+page-home {
+    height: auto;
+input {
+    text-align: center;
+ 
+}
+.content {
+    align-content: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.title{
+    text-align: center;
+}
+.bg {
+    background: linear-gradient(to top, grey 0%, #fff 100%);
+}
+}
+

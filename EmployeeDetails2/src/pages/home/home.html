@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SignUp
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+
+<ion-content class="background">
+    <ion-title class="title">Welcome employee</ion-title>
+    <img class="imgs" src="../../assets/imgs/userlogin.png" >
+  <ion-list no-line>
+    
+    <ion-item>
+      <ion-input type="text" placeholder="Username" #username></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-input type="Password" placeholder="Password" #password></ion-input>
+      </ion-item>
+  </ion-list>
+  <ion-list>
+   
+    <button ion-button color="Green" (click)="Login()"> log In</button>
+    <button ion-button color="light" (click)="goRegister()">Register</button>
+  </ion-list>
+  
+</ion-content>

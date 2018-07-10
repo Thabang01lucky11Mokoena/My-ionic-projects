@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      SCORE BOARD 
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg">
+
+    <img class="imgs" src="../../assets/imgs/sporting-goods-4.jpg" >
+    <br> 
+    <br>
+ <ion-label><strong>HOME. </strong></ion-label>
+ <ion-input type="text" placeholder="Enter home team name."  [(ngModel)]="home" ></ion-input>
+  
+ <ion-label><strong>AWAY.</strong></ion-label>
+ <ion-input type="text" placeholder="Enter away team name"  [(ngModel)]="away"></ion-input>
+
+
+ <button  ion-button color="green" round (click)="goScore()"><i>Submit</i></button>
+ <br>
+ <img class="imgs" src="../../assets/imgs/wallpapers.jpg" >
+</ion-content>
+ 

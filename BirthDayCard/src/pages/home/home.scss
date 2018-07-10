@@ -1,0 +1,23 @@
+page-home {
+    background-color: sky;
+    .underline {
+        border-bottom: 2px solid currentColor;
+        display: inline-block;
+        line-height: 0.85;
+    }
+    .img{
+
+        float: left;
+
+    }
+    .Hs{
+        text-align: center;
+        padding: 10vh;
+        height: 10%;
+    }
+    .p{
+        text-align: center;
+        font-family: Georgia;
+    }
+
+}
